@@ -28,6 +28,8 @@ header{
 
 /* End Common Style */
 
+/* start header part */
+
 .header-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -75,6 +77,7 @@ header{
 
 /* End Header section */
 
+/* start plaer list*/
 .palyers-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -103,6 +106,8 @@ header{
 }
 
 /* End Player Section */
+
+/* Start news section */
 .news-heading{
     font-size: 50px;
     color:#E02C6D;
@@ -146,6 +151,8 @@ header{
 
 /* End News section */
 
+/* start trophy section */
+
 .trophy-content{
     display: flex;
     align-items: center; 
@@ -188,6 +195,8 @@ header{
 
 /* End Tropy section */
 
+/* start footer section */
+
 .footer-design{
     text-align: center;
 }
@@ -200,4 +209,4 @@ height: 110px;
     margin: 0px 14px;
     font-size: 20px;
 }
-
+/* start footer section */
