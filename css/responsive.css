@@ -22,8 +22,8 @@
 .palyers-list{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 45px;
-    grid-row-gap: 45px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
 }
 .latest-news{
     display: grid;
