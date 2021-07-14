@@ -7,15 +7,18 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #faf8f8;
 }
 main{
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 header{
     background-color: #2D25A0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     width: 1160px;
@@ -28,8 +31,7 @@ header{
 .header-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    
-    
+
 }
 .heading-title{
     font-size: 64px;
@@ -59,6 +61,16 @@ header{
 .header-content-half img{
     width: 556.01px;
     height: 438px;
+}
+.header-content-half img:hover{
+  position: relative;
+  animation: 3s infinite alternate mymove;
+  animation-duration: 2s;
+
+}
+@keyframes mymove {
+  from {top: 0px;}
+  to {right: 100px;}
 }
 
 /* End Header section */
@@ -131,3 +143,61 @@ header{
     font-size: 16px;
     line-height: 22px;
 }
+
+/* End News section */
+
+.trophy-content{
+    display: flex;
+    align-items: center; 
+}
+.cup{
+    display: flex;
+    align-items: center;
+}
+.cup img{
+    width: 200px;
+    height: 300px;
+}
+.trophy-room{
+    font-size: 32px;
+    color: black;
+    font-family: "Poppins",sans-serif;
+    font-weight: 800;
+}
+.trophy-des,span{
+    color: rgb(160, 159, 159);
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+.trophy-button{
+    background-color: #E02C6D;;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.year-cup{
+    text-align: center;
+}
+.trophy{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(13, 13, 14, 0.1);
+}
+
+/* End Tropy section */
+
+.footer-design{
+    text-align: center;
+}
+footer img{
+width: 483.87px;
+height: 110px;
+}
+.icon-design i{
+    color: #969BAB;
+    margin: 0px 14px;
+    font-size: 20px;
+}
+
