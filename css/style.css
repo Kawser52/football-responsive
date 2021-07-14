@@ -3,3 +3,29 @@
 
 /* End Google Font */
 
+/* Common Style */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+
+}
+
+
+/* End Common Style */
+
+header{
+ background-color: #2D25A0;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-content-half img{
+    width: 556.01px;
+    height: 438px;
+}
